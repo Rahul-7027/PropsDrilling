@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 const MemoCount = () => {
-    
-  return (
-    <div>
-      <div>
-        <h2>Use Memo Hooks</h2>
-      </div>
-    </div>
-  )
+    const refCount = useRef(0)
+
+    return (
+        <div>
+            <div>
+                <h2>Use Memo Hooks</h2>
+                <h4>Nothing changed here but i have noew re-render </h4>
+                <span>{refCount.current++}</span>
+            </div>
+        </div>
+    )
 }
 
-export default MemoCount
+export default React.memo( MemoCount)

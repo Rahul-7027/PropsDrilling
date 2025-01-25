@@ -1,10 +1,10 @@
 import './App.css';
-import UseReducer from './component/UseReducerHooks/UseReducer';
+import ReactCount from './component/MemoHooks/ReactCount';
 
 function App() {
   return (
     <div className="App">
-        <UseReducer/>
+        <ReactCount/>
     </div>
   );
 }
