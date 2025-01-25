@@ -1,10 +1,10 @@
 import './App.css';
-import ReactCount from './component/MemoHooks/ReactCount';
+import MemoIndex from './component/HooksMemo/MemoIndex';
 
 function App() {
   return (
     <div className="App">
-        <ReactCount/>
+        <MemoIndex/>
     </div>
   );
 }
