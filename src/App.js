@@ -1,11 +1,10 @@
 import './App.css';
-import MemoIndex from './component/hooks/HooksMemo/MemoIndex';
-import ReactCount from './component/hooks/Memo/ReactCount';
+import Usecallback from './component/hooks/UsecallBackHooks/Usecallback';
 
 function App() {
   return (
     <div className="App">
-        <ReactCount/>
+        <Usecallback/>
     </div>
   );
 }
