@@ -1,16 +1,10 @@
 import './App.css';
-import About from './component/ContextApi/About';
-import Home from './component/ContextApi/Home';
-import Services from './component/ContextApi/Services';
-import CustomHooksDefine from './component/CustomHooks/CustomHooksDefine';
+import UseReducer from './component/UseReducerHooks/UseReducer';
 
 function App() {
   return (
     <div className="App">
-        <Home />
-        <About/>
-        <Services/>
-        <CustomHooksDefine/>
+        <UseReducer/>
     </div>
   );
 }
